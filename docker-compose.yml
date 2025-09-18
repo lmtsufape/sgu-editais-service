@@ -19,6 +19,7 @@ services:
       SPRING_RABBITMQ_PORT: 5672
       SPRING_RABBITMQ_USERNAME: guest
       SPRING_RABBITMQ_PASSWORD: guest
+      CONFIG_SERVER_URI: http://config-service:8888
     depends_on:
       sgu-editais-db:
         condition: service_healthy
