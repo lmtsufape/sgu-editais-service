@@ -11,20 +11,10 @@ import java.util.UUID;
 @FeignClient(name = "authServiceClient", url = "${authClient.base-url}")
 public interface AuthServiceClient {
 
-//    @GetMapping("/unidade-administrativa/{id}")
-//    UnidadeAdministrativaResponse buscarUnidadeAdministrativa(@PathVariable("id") Long id);
-//
-//    @GetMapping("/unidade-administrativa/funcionario/{usuarioId}")
-//    Page<UnidadeAdministrativaResponse> listarUnidadesDoFuncionarioPorId(@PathVariable("usuarioId") UUID usuarioId);
-//
-//    @GetMapping("/unidade-administrativa/gestor/{usuarioId}")
-//    Page<UnidadeAdministrativaResponse> listarUnidadesDoGestorPorId(@PathVariable("usuarioId") UUID usuarioId);
 
     @GetMapping("/usuario/{userId}")
     UsuarioResponse buscarUsuarioPorId(@PathVariable("userId") UUID userId);
 
-//    @GetMapping("/unidade-administrativa/{id}/vinculo")
-//    boolean verificarVinculo(@PathVariable("id") Long id, @RequestParam("userId") UUID userId);
 
     @GetMapping("curso/{id}")
     CursoResponse buscarCursoPorId(@PathVariable("id") Long id);

@@ -24,3 +24,22 @@
 //    @JsonIgnore
 //    private Edital edital;
 //}
+
+package br.edu.ufape.sguEditaisService.models;
+
+import jakarta.persistence.*;
+import lombok.*;
+
+@Entity
+@Getter @Setter @NoArgsConstructor @AllArgsConstructor @Builder
+public class DocumentoEdital {
+    @Id
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
+    private Long id;
+
+    @Column(nullable = false)
+    private String nome;
+
+    @Column(nullable = false, columnDefinition = "TEXT")
+    private String path; // Caminho do PDF oficial publicado no Storage
+}
