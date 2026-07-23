@@ -1,4 +1,4 @@
-package br.edu.ufape.sguEditaisService.features.tipoedital.etapamodelo.dto;
+/*package br.edu.ufape.sguEditaisService.features.tipoedital.etapamodelo.dto;
 
 import jakarta.validation.constraints.Min;
 import jakarta.validation.constraints.NotBlank;
@@ -13,3 +13,5 @@ public record CriarEtapaModeloRequest(
         @NotNull LocalDateTime dataFim,
         String configuracoes // JSON String para regras dinâmicas
 ) {}
+
+ */

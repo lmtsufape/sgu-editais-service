@@ -1,4 +1,4 @@
-package br.edu.ufape.sguEditaisService.features.tipoedital.etapamodelo;
+/*package br.edu.ufape.sguEditaisService.features.tipoedital.etapamodelo;
 
 import br.edu.ufape.sguEditaisService.features.tipoedital.etapamodelo.dto.CriarEtapaModeloRequest;
 import br.edu.ufape.sguEditaisService.features.tipoedital.etapamodelo.dto.EtapaModeloResponse;
@@ -50,3 +50,5 @@ public class EtapaModeloController {
         return ResponseEntity.noContent().build();
     }
 }
+
+ */

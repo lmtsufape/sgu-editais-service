@@ -1,4 +1,4 @@
-package br.edu.ufape.sguEditaisService.servicos.interfaces;
+/*package br.edu.ufape.sguEditaisService.servicos.interfaces;
 
 import br.edu.ufape.sguEditaisService.models.ValorCampo;
 import br.edu.ufape.sguEditaisService.exceptions.notFound.ValorCampoNotFoundException;
@@ -11,3 +11,5 @@ public interface ValorCampoService {
     ValorCampo editar(Long id, ValorCampo valorCampo) throws ValorCampoNotFoundException;
     void deletar(Long id) throws ValorCampoNotFoundException;
 }
+
+ */

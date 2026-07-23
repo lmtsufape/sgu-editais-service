@@ -1,4 +1,4 @@
-package br.edu.ufape.sguEditaisService.servicos;
+/*package br.edu.ufape.sguEditaisService.servicos;
 
 import br.edu.ufape.sguEditaisService.dados.ValorCampoRepository;
 import br.edu.ufape.sguEditaisService.exceptions.notFound.ValorCampoNotFoundException;
@@ -41,3 +41,5 @@ public class ValorCampoServiceImpl implements ValorCampoService {
         repository.delete(buscar(id));
     }
 }
+
+ */

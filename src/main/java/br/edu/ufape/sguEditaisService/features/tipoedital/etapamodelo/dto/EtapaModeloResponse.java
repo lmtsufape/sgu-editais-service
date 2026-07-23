@@ -1,4 +1,4 @@
-package br.edu.ufape.sguEditaisService.features.tipoedital.etapamodelo.dto;
+/*package br.edu.ufape.sguEditaisService.features.tipoedital.etapamodelo.dto;
 
 import br.edu.ufape.sguEditaisService.features.tipoedital.etapamodelo.EtapaModelo;
 import br.edu.ufape.sguEditaisService.features.tipoedital.etapamodelo.campoetapa.dto.CampoEtapaResponse;
@@ -28,3 +28,5 @@ public record EtapaModeloResponse(
         );
     }
 }
+
+ */

@@ -1,4 +1,4 @@
-package br.edu.ufape.sguEditaisService.features.tipoedital.campomodelo;
+/*package br.edu.ufape.sguEditaisService.features.tipoedital.campomodelo;
 
 import br.edu.ufape.sguEditaisService.features.tipoedital.CampoPersonalizado;
 import br.edu.ufape.sguEditaisService.features.tipoedital.TipoEdital;
@@ -33,3 +33,5 @@ public class CampoModelo extends CampoPersonalizado {
         this.tipoEdital = null;
     }
 }
+
+ */

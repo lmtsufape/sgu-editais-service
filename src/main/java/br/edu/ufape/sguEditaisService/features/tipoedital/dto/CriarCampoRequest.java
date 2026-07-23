@@ -1,4 +1,4 @@
-package br.edu.ufape.sguEditaisService.features.tipoedital.dto;
+/*package br.edu.ufape.sguEditaisService.features.tipoedital.dto;
 
 import br.edu.ufape.sguEditaisService.models.enums.TipoCampo;
 import jakarta.validation.constraints.NotBlank;
@@ -10,3 +10,5 @@ public record CriarCampoRequest(
         boolean obrigatorio,
         String configuracoes
 ) {}
+
+ */

@@ -1,4 +1,4 @@
-package br.edu.ufape.sguEditaisService.features.tipoedital.etapamodelo.campoetapa;
+/*package br.edu.ufape.sguEditaisService.features.tipoedital.etapamodelo.campoetapa;
 
 import br.edu.ufape.sguEditaisService.features.tipoedital.CampoPersonalizado;
 import br.edu.ufape.sguEditaisService.features.tipoedital.etapamodelo.EtapaModelo;
@@ -33,3 +33,5 @@ public class CampoEtapa extends CampoPersonalizado {
         this.etapaModelo = null;
     }
 }
+
+ */

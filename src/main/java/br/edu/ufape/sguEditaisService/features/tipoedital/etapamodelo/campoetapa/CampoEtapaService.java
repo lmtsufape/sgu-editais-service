@@ -1,4 +1,4 @@
-package br.edu.ufape.sguEditaisService.features.tipoedital.etapamodelo.campoetapa;
+/*package br.edu.ufape.sguEditaisService.features.tipoedital.etapamodelo.campoetapa;
 
 import br.edu.ufape.sguEditaisService.exceptions.business.RegraNegocioException;
 import br.edu.ufape.sguEditaisService.exceptions.notFound.ResourceNotFoundException;
@@ -67,3 +67,5 @@ public class CampoEtapaService {
         }
     }
 }
+
+ */
