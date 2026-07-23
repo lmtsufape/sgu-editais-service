@@ -1,4 +1,4 @@
-package br.edu.ufape.sguEditaisService.features.tipoedital.etapamodelo.campoetapa;
+/*package br.edu.ufape.sguEditaisService.features.tipoedital.etapamodelo.campoetapa;
 
 import br.edu.ufape.sguEditaisService.features.tipoedital.dto.CriarCampoRequest;
 import br.edu.ufape.sguEditaisService.features.tipoedital.etapamodelo.campoetapa.dto.CampoEtapaResponse;
@@ -34,3 +34,5 @@ public class CampoEtapaController {
         return ResponseEntity.noContent().build();
     }
 }
+
+ */

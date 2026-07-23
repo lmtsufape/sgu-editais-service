@@ -1,4 +1,4 @@
-package br.edu.ufape.sguEditaisService.features.tipoedital.dto;
+/*package br.edu.ufape.sguEditaisService.features.tipoedital.dto;
 
 import br.edu.ufape.sguEditaisService.features.tipoedital.TipoEdital;
 import br.edu.ufape.sguEditaisService.features.tipoedital.EstadoModelo;
@@ -27,3 +27,5 @@ public record TipoEditalResponse(
         );
     }
 }
+
+ */

@@ -1,4 +1,4 @@
-package br.edu.ufape.sguEditaisService.features.tipoedital.campomodelo;
+/*package br.edu.ufape.sguEditaisService.features.tipoedital.campomodelo;
 
 import br.edu.ufape.sguEditaisService.features.tipoedital.dto.CriarCampoRequest;
 import br.edu.ufape.sguEditaisService.features.tipoedital.campomodelo.dto.CampoModeloResponse;
@@ -33,3 +33,5 @@ public class CampoModeloController {
         return ResponseEntity.noContent().build();
     }
 }
+
+ */

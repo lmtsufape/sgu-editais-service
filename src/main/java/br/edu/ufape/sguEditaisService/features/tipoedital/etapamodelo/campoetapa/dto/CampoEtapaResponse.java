@@ -1,4 +1,4 @@
-package br.edu.ufape.sguEditaisService.features.tipoedital.etapamodelo.campoetapa.dto;
+/*package br.edu.ufape.sguEditaisService.features.tipoedital.etapamodelo.campoetapa.dto;
 
 import br.edu.ufape.sguEditaisService.features.tipoedital.etapamodelo.campoetapa.CampoEtapa;
 import br.edu.ufape.sguEditaisService.models.enums.TipoCampo;
@@ -22,3 +22,5 @@ public record CampoEtapaResponse(
         );
     }
 }
+
+ */

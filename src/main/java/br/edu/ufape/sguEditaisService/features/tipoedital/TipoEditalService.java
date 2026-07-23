@@ -1,4 +1,4 @@
-package br.edu.ufape.sguEditaisService.features.tipoedital;
+/*package br.edu.ufape.sguEditaisService.features.tipoedital;
 
 import br.edu.ufape.sguEditaisService.exceptions.notFound.ResourceNotFoundException;
 import br.edu.ufape.sguEditaisService.features.tipoedital.dto.CriarTipoEditalRequest;
@@ -42,7 +42,14 @@ public class TipoEditalService {
 
     @Transactional(readOnly = true)
     public TipoEditalResponse buscarPorId(Long id) {
-        return TipoEditalResponse.from(buscarEntidade(id));
+        try {
+            TipoEdital tipo = buscarEntidade(id);
+            return TipoEditalResponse.from(tipo);
+        } catch (ResourceNotFoundException e) {
+            throw e;
+        } catch (Exception e) {
+            throw new RuntimeException("Erro ao buscar TipoEdital por ID: " + id, e);
+        }
     }
 
     @Transactional(readOnly = true)
@@ -65,3 +72,5 @@ public class TipoEditalService {
                 .orElseThrow(() -> new ResourceNotFoundException("TipoEdital", id));
     }
 }
+
+ */
