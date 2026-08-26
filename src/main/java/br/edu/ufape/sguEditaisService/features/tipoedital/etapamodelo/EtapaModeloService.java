@@ -32,8 +32,6 @@ public class EtapaModeloService {
                 request.nome(),
                 request.descricao(),
                 request.ordem(),
-                request.dataInicio(),
-                request.dataFim(),
                 request.configuracoes()
         );
 

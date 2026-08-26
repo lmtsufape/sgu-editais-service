@@ -2,7 +2,7 @@ package br.edu.ufape.sguEditaisService.features.tipoedital.etapamodelo.dto;
 
 import br.edu.ufape.sguEditaisService.features.tipoedital.etapamodelo.EtapaModelo;
 import br.edu.ufape.sguEditaisService.features.tipoedital.etapamodelo.campoetapa.dto.CampoEtapaResponse;
-import java.time.LocalDateTime;
+
 import java.util.List;
 
 public record EtapaModeloResponse(
@@ -10,8 +10,6 @@ public record EtapaModeloResponse(
         String nome,
         String descricao,
         Integer ordem,
-        LocalDateTime dataInicio,
-        LocalDateTime dataFim,
         String configuracoes,
         List<CampoEtapaResponse> campos
 ) {
@@ -21,8 +19,6 @@ public record EtapaModeloResponse(
                 etapa.getNome(),
                 etapa.getDescricao(),
                 etapa.getOrdem(),
-                etapa.getDataInicio(),
-                etapa.getDataFim(),
                 etapa.getConfiguracoes(),
                 etapa.getCamposEtapa().stream().map(CampoEtapaResponse::from).toList()
         );
